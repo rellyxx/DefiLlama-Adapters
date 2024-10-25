@@ -49,7 +49,7 @@ const config = {
       '0x9b4ae930255CB8695a9F525dA414F80C4C7a945B',
     ]
   },
-  scroll: { 
+  scroll: {
     factories: [
       '0x02Ff7B4d96EeBF8c9B34Fae0418E591e11da3099',
       '0xFBD17F3AA7d6506601D2bF7e15a6C96081296a01', // scroll stablefactory
@@ -66,8 +66,17 @@ const config = {
     factories: [
       '0x3047523D5ed0df1545B1C440BdAaB095f1f3cf5C'
     ]
+  },
+  optimism: {
+    factories: [
+      '0xa058Ba91958cD30D44c7B0Cf58A369876Fb70B05'
+    ]
+  },
+  real: {
+    factories: [
+      '0x3b1f3a48a70e372144307a4b126a5cda46e169ad'
+    ]
   }
-
 }
 
 const blacklistedPools = {
@@ -111,7 +120,9 @@ const blacklistedPools = {
   ],
   scroll: [],
   base: [],
-  mantle: []
+  mantle: [],
+  optimism: [],
+  real: []
 }
 
 module.exports = {}
